@@ -39,7 +39,6 @@ public class DemoApplication {
 	
 	@GetMapping("/public")
 	public String pub(){
-		
 		return "This is public endpoint";
 	}
 
